@@ -26,7 +26,10 @@ function Signup() {
       <Typography variant="h5" color="blue-gray">
         Basic Information
       </Typography>
-      <Typography variant="small" className="text-gray-600 font-normal mt-1">
+      <Typography
+        variant="small"
+        className="text-gray-600 font-normal mt-1"
+      >
         Update your profile information below.
       </Typography>
       <div className="flex flex-col mt-8">

@@ -5,13 +5,13 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-
+ 
 export function DrawerExample() {
   const [open, setOpen] = React.useState(false);
-
+ 
   const openDrawer = () => setOpen(true);
   const closeDrawer = () => setOpen(false);
-
+ 
   return (
     <React.Fragment>
       <Button onClick={openDrawer}>Open Drawer</Button>
@@ -38,7 +38,7 @@ export function DrawerExample() {
           </IconButton>
         </div>
         <Typography color="gray" className="mb-8 pr-4 font-normal">
-          Text for our drawer!
+          Text for our Drawer!
         </Typography>
         <div className="flex gap-2">
           <Button size="sm" variant="outlined">
@@ -50,3 +50,4 @@ export function DrawerExample() {
     </React.Fragment>
   );
 }
+export default DrawerExample
